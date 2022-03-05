@@ -1,0 +1,141 @@
+body {
+    font-size: 15pt;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#humanscores {
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+#computerscores {
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#rock {
+  height:120px; 
+  width: 120px;
+  background-color: transparent; 
+  border-color: transparent; 
+  border-radius: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+
+#comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#paper {
+  height:120px; 
+  width: 120px;
+  background-color: transparent ;
+  border-color: transparent; 
+  border-radius: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+} 
+
+#scissors {
+height:120px;
+width: 120px;
+background-color: transparent ; 
+border-color: transparent; 
+border-radius: 100%; 
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+#startgame {
+  height: 50px;
+  width: 300px;
+  border-style: solid;
+  margin-left: 65px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #b48866;
+  margin-top: 20px;
+  background: #97603c;
+  border-color: #97603c;  
+}
+#startgame2 {
+  height: 50px;
+  width: 300px;
+  border-style: solid;
+  margin-left: 65px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #b48866;
+  margin-top: 20px;
+  background: #97603c;
+  border-color: #97603c;
+  display: none;
+}
+
+#exit {
+  height: 50px;
+  width: 300px;
+  border-style: solid;
+  margin-left: 65px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #b48866;
+  margin-top: 30px;
+  background: #97603c;
+  border-color: #97603c;
+  visibility: hidden;
+}
+
+#banner1 {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(8px);
+  display: none;
+}
+
+#banner1-content {
+  background: transparent;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 120px;
+  border-radius: 5px;
+  display: none
+}
+
+#banner2 {
+  background: transparent;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 120px;
+  border-radius: 5px;
+  display: none;
+}
